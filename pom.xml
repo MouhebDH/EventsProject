@@ -54,7 +54,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-<distributionManagement>
+    
+    <distributionManagement>
     <repository>
         <id>nexus</id> <!-- This should match the <id> in settings.xml -->
         <name>Nexus Releases</name>
@@ -65,7 +66,7 @@
         <name>Nexus Snapshots</name>
         <url>http://localhost:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
-</distributionManagement>
+    </distributionManagement>
 
     <build>
         <plugins>
